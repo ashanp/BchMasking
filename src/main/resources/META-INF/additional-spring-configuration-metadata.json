@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "skip_doctypes",
+    "type": "java.lang.String",
+    "description": "A description for 'skip_doctypes'"
+  },
+  {
+    "name": "bgh_xml_reference_file",
+    "type": "java.lang.String",
+    "description": "A description for 'bgh_xml_reference_file'"
+  },
+  {
+    "name": "xml_output_path",
+    "type": "java.lang.String",
+    "description": "A description for 'xml_output_path'"
+  },
+  {
+    "name": "masked_text",
+    "type": "java.lang.String",
+    "description": "A description for 'masked_text'"
+  }
+]}
