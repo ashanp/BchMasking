@@ -54,16 +54,10 @@ public class BatchConfiguration {
 	@Bean
 	ItemWriter<String> xmlItemWriter() {
 		Logger LOGs = LoggerFactory.getLogger(BatchConfiguration.class);
-		return items -> {
-//            System.out.println("Writing items:");
-            
+		return items -> {   
             for (String item : items) {
             	LOGs.info("Invoice Number:"+item+" extraction completed");
-//                System.out.println(item);
             }
-            
-    		
-    		
         };
 	}
 	
